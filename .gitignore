@@ -1,0 +1,18 @@
+# Virtual environment
+CV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+
+# Video files
+*.avi
+*.mp4
+*.mov
+*.mkv
