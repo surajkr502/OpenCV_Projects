@@ -11,7 +11,7 @@ frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
 output = cv2.VideoWriter(
     "Full_screen.avi",
-    cv2.VideoWriter_fourcc(*"MJPG"),
+    getattr(cv2, "VideoWriter_fourcc")(*"MJPG"),
     10,
     (frame_width, frame_height)
 )
